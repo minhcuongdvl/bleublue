@@ -1,0 +1,177 @@
+body {
+    background: #ccc;
+}
+* {
+    word-break: break-word;
+}
+.dataTables_info {
+    display: none !important;
+}
+.col2 {
+    width:16.66666667%;
+    float:left;
+}
+.col10 {
+    width: 83.33333333%;
+    float:left;
+}
+.admin {
+    padding: 10px 10px;
+}
+.admin .head_admin {
+
+}
+.head_admin p {
+    font-size: 20px;
+    color:white;
+    text-transform: uppercase;
+}
+.content {
+
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 1px black;
+    min-height: 580px;
+    padding: 3px;
+
+}
+.content_admin {
+    background: #072342;
+    padding: 10px 5px;
+
+}
+.contentfull {
+    min-height: 580px;
+    background: #E9E9E9;
+    padding: 20px;
+
+    border-radius: 3px;
+}
+.content #h1{
+    margin: 0 0 10px 0;
+    color: #003384;
+    padding: 11px 10px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+#h1 #a1 {
+    float:right;
+}
+.sideAdmin-left {
+    position: relative;
+    
+    overflow: hidden;
+}
+.sideAdmin-left >a {
+    font-size: 20px;
+    color: white;
+   margin-bottom: 10px;
+    display: block;
+    padding: 5px;
+}
+.sideAdmin-left img {
+    width: 100%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px;
+}
+.sideAdmin-left ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sideAdmin-left ul li {
+    display: block;
+    text-align: right;
+}
+.sideAdmin-left ul li a {
+    display: block;
+    padding: 10px 5px;
+    background: linear-gradient(-90deg, #0066A9, #184679);
+    color: white;
+    margin: 5px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    text-decoration: none;
+}
+.sideAdmin-left ul li a:hover {
+    background: white;
+    color: #003384;
+}
+#myTable img {
+    width: 150px;
+}
+#res {
+    color:black;
+    font-size: 18px;
+    display: none;
+    background: #e9e9e9;
+    padding: 5px 6px;
+}
+#res span {
+    float:right;
+    font-size: 25px;
+    cursor: pointer;
+}
+.infouser {
+   
+}
+.infouser .p {
+    color:white;
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+}
+.infouser .p:hover {
+
+}
+.infouser .p i {
+    font-size: 20px;
+
+}
+.p a{
+    color:white;
+}
+.p .fa-reply-all {
+    float:right;
+    transform: rotate(180deg);
+}
+th{
+    width: 40%;
+}
+@media (max-width: 992px) {
+    .col2, .col10 {
+        width: 100%;
+        float:none;
+    }
+    .sideAdmin-left img {
+        width: 150px;
+    }
+    .sideAdmin-left ul li {
+        text-align: left;
+    }
+    nav ul {
+        display: none;
+    }
+    #res {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .admin {
+        width: 800px;
+    }
+}
+.error{
+        
+    margin-right: 20px;
+    font-size: 14px;
+    color: red;
+}
+input{
+    width: 60%;
+}
+.field{
+  width: 5%;
+  
+}
